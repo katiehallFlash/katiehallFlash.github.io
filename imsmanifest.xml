@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest identifier="SAPCONAUT-Sy-lhjxKpwSyzl3olKaD" version="1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="SAPCONAUT-Sy-lhjxKpwSyzl3olKaD-org">
+    <organization identifier="SAPCONAUT-Sy-lhjxKpwSyzl3olKaD-org">
+      <title>Flash Portals</title>
+      <item identifier="I_SCO0" identifierref="SCO0">
+        <title>Flash Portals</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="shell.html">
+      <file href="shell.html">
+        <dependency identifierref="ALLRESOURCES"/>
+      </file>
+    </resource>
+    <resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+      <file href="adlcp_rootv1p2.xsd"/>
+      <file href="components/introduction/introduction.html"/>
+      <file href="components/introduction/logo.png"/>
+      <file href="components/standard_md/standard_md.html"/>
+      <file href="css/spark-bundle-584009516f4bdb6c7534ac9872d38231.css"/>
+      <file href="data/en_US/data.xml"/>
+      <file href="data/language.js"/>
+      <file href="data/preload.xml"/>
+      <file href="images/loginbutton.JPG"/>
+      <file href="images/logo.png"/>
+      <file href="ims_xml.xsd"/>
+      <file href="imscp_rootv1p1p2.xsd"/>
+      <file href="imsmd_rootv1p2p1.xsd"/>
+      <file href="js/core.c77646f3a073e9d44592e4d824e53a09.bundle.js"/>
+      <file href="js/project.c77646f3a073e9d44592e4d824e53a09.bundle.js"/>
+      <file href="js/vendor.c77646f3a073e9d44592e4d824e53a09.bundle.js"/>
+      <file href="templates/templates.html"/>
+    </resource>
+  </resources>
+</manifest>
